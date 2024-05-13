@@ -1,0 +1,78 @@
+:root {
+    --color: #35c2ec;
+}
+body {
+    /* background-color: #222 !important; */
+    /* background-image: url('./components/images/metro.jpg'); */
+    background-image: url('./components/images/back-ground.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15%;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+    box-shadow: 0 25px 25px rgba(0,0,0,0.40);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 5%;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    margin-bottom: 5px;
+}
+
+span{
+    color: var(--color);
+}
+input {
+    border: none;
+    outline: none;
+    background-color: #2222223f;
+    color: var(--color);
+    border-bottom: 1px var(--color) solid;
+}
+
+button {
+    color: var(--color);
+    background-color: transparent;
+    border: 1px var(--color) solid;
+    font-weight: bold;
+}
+button:hover{
+    background-color: var(--color);
+    color: #ffffff;
+}
+h2 b{
+    color: var(--color);
+}
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links .Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Links button {
+    padding: 0 40px;
+}
